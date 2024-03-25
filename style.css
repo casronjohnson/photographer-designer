@@ -13,6 +13,13 @@ a {
   text-decoration: none;
 }
 
+header {
+  /*using fixed position allows us to precisely position an element in relation to the viewport window*/
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
 section {
   /*vh stands for viewport height. It will be relative to the browser window*/
   height: 100vh;
@@ -21,4 +28,10 @@ section {
   /*The background image will cover the full height and width of the section
   without skewing or repeating the image*/
   background-size: cover;
+}
+
+footer {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
 }
